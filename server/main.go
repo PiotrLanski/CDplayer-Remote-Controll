@@ -25,6 +25,7 @@ func main() {
 			io.Copy(c, c)
 			c.Close()
 		}(conn)
+
 		//go handleConnection(conn)
 	}
 }
